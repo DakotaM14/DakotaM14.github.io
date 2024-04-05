@@ -1,0 +1,436 @@
+body {
+  background-color: rgb(27, 27, 27);
+  margin: 0;
+}
+
+a {
+  color: white;
+  display: inline-block;
+  margin-left: 20px;
+  font-size: x-large;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-transform: uppercase;
+}
+
+#navbar-logo {
+  height: 70px;
+  width: 70px;
+  margin-right: 40px;
+}
+
+.navbar {
+  display: flex;
+  padding: 10px;
+  padding-bottom: 30px;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+
+#phone-num {
+  float: right;
+}
+
+.hero-container {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  position: absolute;
+  margin: 0;
+}
+
+#hero-background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  filter: brightness(50%);
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  height: 600px;
+  color: white;
+}
+
+#hero-logo {
+  height: 200px;
+  width: 200px;
+  filter: invert();
+}
+
+.hero-text h1 {
+  margin-bottom: -10px;
+  font-size: 72px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.hero-text p {
+  font-size: 30px;
+  font-weight: bold;
+  width: 900px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.hero-form {
+  background-color: rgb(36, 36, 36);
+  margin: 47px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.nav-links a {
+  display: inline;
+}
+
+.nav-links {
+  width: 1700px;
+  padding-top: 20px;
+}
+
+.hero-form input,
+#form-dropdown {
+  height: 70px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.hero-form input::placeholder {
+  color: black;
+  padding-left: 2px;
+}
+
+.hero-form h1 {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  font-family: "Gill Sans", sans-serif;
+}
+
+#submit-button {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#submit-button:hover {
+  transform: scale(1.02);
+  transition: 500ms ease;
+}
+
+.services-container {
+  width: 100%;
+  height: 800px;
+  margin-top: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.services-container h2 {
+  color: white;
+  font-size: 64px;
+  font-family: Arial, sans-serif;
+}
+.services-cards {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+}
+
+.service-card {
+  width: 300px;
+  height: 400px;
+  background-color: rgb(46, 46, 46);
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: 400ms ease;
+  border-top-color: red;
+}
+
+.service-card:hover {
+  transform: scale(1.1);
+  border-top-style: solid;
+  border-top-width: 12px;
+}
+
+.service-card img {
+  width: 275px;
+  height: 150px;
+}
+
+.service-card h3 {
+  font-size: 35px;
+  color: white;
+}
+.service-card p {
+  font-size: 18px;
+  text-align: center;
+  margin-top: -15px;
+  font-weight: 100;
+  color: white;
+  font-family: "Arial", sans-serif;
+}
+
+.service-card h4 {
+  font-size: 25px;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bolder;
+  color: red;
+}
+
+.all-services-button {
+  margin-top: 710px;
+  position: absolute;
+}
+
+#all-services {
+  background-color: red;
+  height: 40px;
+  width: 200px;
+  color: white;
+  font-size: 22px;
+  border-radius: 15px;
+}
+
+#all-services:hover {
+  transform: scale(1.05);
+  transition: 400ms ease;
+}
+
+.white-bar {
+  height: 5px;
+  margin-top: 0px;
+  width: 90%;
+  margin-left: 75px;
+  background-color: white;
+  position: relative;
+}
+
+.family-photo {
+  position: relative;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+#family-photo {
+  border-radius: 15px;
+}
+
+.who-we-are h1 {
+  text-align: right;
+  margin-top: -450px;
+  margin-right: 40px;
+  font-size: 72px;
+  color: white;
+  font: larger;
+  font-family: Arial, sans-serif;
+}
+
+.who-we-are p {
+  margin-left: 800px;
+  margin-right: 40px;
+  font-size: 20px;
+  color: white;
+  text-align: right;
+  text-wrap: wrap;
+  font: x-large;
+  letter-spacing: 1px;
+  line-height: 30px;
+  font-family: "Arial", sans-serif;
+}
+
+.white-bar2 {
+  height: 5px;
+  margin-top: 150px;
+  width: 90%;
+  margin-left: 75px;
+  background-color: white;
+  position: relative;
+}
+
+.why-choose-us {
+  text-align: center;
+  font-size: 36px;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin-top: 20px;
+}
+
+.choose-container {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.choose-cards1,
+.choose-cards2 {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  padding: 50px;
+  align-items: center;
+  text-align: center;
+}
+
+.choose-card:hover {
+  transform: scale(1.05);
+  transition: 500ms ease;
+  border-top-style: solid;
+  border-top-width: 12px;
+  border-top-color: red;
+}
+.choose-cards2 {
+  margin-top: 20px;
+}
+.choose-card {
+  width: 300px;
+  height: 200px;
+  background-color: rgb(46, 46, 46);
+  border-top-style: solid;
+  border-top-width: 12px;
+  border-top-color: rgba(0, 0, 0, 0);
+}
+
+.choose-cards1 h3 {
+  margin-top: 50px;
+  font-size: 40px;
+  text-wrap: wrap;
+  font-weight: 600;
+  color: white;
+}
+
+.choose-cards2 h3 {
+  margin-top: 50px;
+  font-size: 40px;
+  text-wrap: wrap;
+  font-weight: 600;
+  color: white;
+}
+
+.testimonies {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+  gap: 30px;
+}
+
+#testimonies-header {
+  color: white;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 72px;
+  margin-bottom: 10px;
+}
+
+.testimonies p {
+  color: white;
+  margin-top: 0px;
+  text-align: center;
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+  font-weight: 100;
+  padding: 60px;
+  height: 140px;
+  line-height: 1.5;
+}
+
+.testimonies h4 {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: -40px;
+}
+
+.view-all-testimonies {
+  position: absolute;
+  margin-left: 720px;
+  margin-top: 380px;
+  margin-right: 50px;
+}
+
+#view-all-testimonies-button {
+  background-color: red;
+  height: 40px;
+  width: 200px;
+  color: white;
+  font-size: 22px;
+  border-radius: 15px;
+  margin-top: 50px;
+}
+
+#view-all-testimonies-button:hover {
+  transform: scale(1.04);
+  transition: 500ms ease;
+}
+
+.richard-testimony,
+.hunter-testimony,
+.rob-testimony {
+  background-color: rgb(46, 46, 46);
+  border-top-style: solid;
+  border-top-width: 12px;
+  border-top-color: red;
+  height: 500px;
+  padding: 15px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+}
+
+.footer {
+  background-color: black;
+  margin-top: 50px;
+  padding: 20px;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 400px;
+  gap: 90px;
+}
+
+.quick-links {
+  color: white;
+  text-align: center;
+  margin-left: 325px;
+  display: flex;
+  flex-direction: column;
+  line-height: 40px;
+}
+
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+  line-height: 0px;
+  margin-left: -400px;
+}
+
+.footer-contact h2 {
+  text-align: left;
+  color: white;
+}
+
+.testimonies-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px;
+}
